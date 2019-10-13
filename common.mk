@@ -67,8 +67,7 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    libbluetooth_qti \
-	libbt-logClient.so
+    libbluetooth_qti
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio_policy/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/audio/audio_policy_configuration.xml \
