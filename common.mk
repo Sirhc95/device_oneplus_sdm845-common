@@ -88,7 +88,8 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
-    ueventd.qcom.rc
+	init.qcom.post_boot.sh \
+	ueventd.qcom.rc
 
 # Display
 PRODUCT_PACKAGES += \
